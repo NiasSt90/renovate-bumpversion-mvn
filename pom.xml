@@ -24,7 +24,7 @@
 		<springdoc-openapi.version>1.5.7</springdoc-openapi.version>
 
 		<!-- Sonarqube Vermessung -->
-		<sonar.projectName>BVO-Intentus-NextGen (${project.artifactId})</sonar.projectName>
+		<sonar.projectName>BVO-Intentus-NextGen</sonar.projectName>
 		<sonar.language>java</sonar.language>
 		<sonar.host.url>https://sonar.onesty-tech.de</sonar.host.url>
 	</properties>
