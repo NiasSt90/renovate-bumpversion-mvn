@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>de.onestytech.bvo</groupId>
 	<artifactId>intentus</artifactId>
-	<version>1.2.0-SNAPSHOT</version>
+	<version>1.2.0</version>
 	<name>intentus-ng</name>
 	<description>
 		Kern des BVO. Enthaelt die Basisfunktionalitaet (REST-Services) der vier Domains: Vertriebspartner, Kunde, Vertrag, VC(Haushalt)
@@ -20,8 +20,7 @@
 		<java.version>11</java.version>
 		<hibernate.version>5.4.27.Final</hibernate.version>
 		<org.testcontainers.version>1.15.2</org.testcontainers.version>
-		<keycloak.version>12.0.1</keycloak.version>
-		<springdoc-openapi.version>1.5.7</springdoc-openapi.version>
+		<keycloak.version>12.0.4</k12.0.4</springdoc-openapi.version>
 
 		<!-- Sonarqube Vermessung -->
 		<sonar.projectName>BVO-Intentus-NextGen</sonar.projectName>
