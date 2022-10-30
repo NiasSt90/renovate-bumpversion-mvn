@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>de.onestytech.bvo</groupId>
 	<artifactId>intentus</artifactId>
-	<version>1.2.0-SNAPSHOT</version>
+	<version>1.2.0</version>
 	<name>intentus-ng</name>
 	<description>
 		Kern des BVO. Enthaelt die Basisfunktionalitaet (REST-Services) der vier Domains: Vertriebspartner, Kunde, Vertrag, VC(Haushalt)
@@ -422,7 +422,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-failsafe-plugin</artifactId>
-					<version>3.0.0-M5</version>
+					<version>3.0.0-M7</version>
 					<configuration>
 						<skipTests>${skipITs}</skipTests>
 					</configuration>
