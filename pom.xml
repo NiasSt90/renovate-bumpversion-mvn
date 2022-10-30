@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>de.onestytech.bvo</groupId>
 	<artifactId>intentus</artifactId>
-	<version>1.2.0-SNAPSHOT</version>
+	<version>1.2.0</version>
 	<name>intentus-ng</name>
 	<description>
 		Kern des BVO. Enthaelt die Basisfunktionalitaet (REST-Services) der vier Domains: Vertriebspartner, Kunde, Vertrag, VC(Haushalt)
@@ -134,7 +134,7 @@
 			<groupId>org.liquibase</groupId>
 			<artifactId>liquibase-core</artifactId>
 			<scope>compile</scope>
-			<version>4.4.3</version><!-- fixt https://github.com/liquibase/liquibase/issues/1277, spring-boot-dependencies ist noch bei 4.3.5 -->
+			<version>4.17.1</version><!-- fixt https://github.com/liquibase/liquibase/issues/1277, spring-boot-dependencies ist noch bei 4.3.5 -->
 		</dependency>
 
 		<dependency>
