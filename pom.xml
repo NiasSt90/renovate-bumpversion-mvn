@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>de.onestytech.bvo</groupId>
 	<artifactId>intentus</artifactId>
-	<version>1.2.0-SNAPSHOT</version>
+	<version>1.2.0</version>
 	<name>intentus-ng</name>
 	<description>
 		Kern des BVO. Enthaelt die Basisfunktionalitaet (REST-Services) der vier Domains: Vertriebspartner, Kunde, Vertrag, VC(Haushalt)
@@ -172,7 +172,7 @@
 		<dependency>
 			<groupId>org.hibernate.search</groupId>
 			<artifactId>hibernate-search-mapper-orm</artifactId>
-			<version>6.0.9.Final</version>
+			<version>6.1.7.Final</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate.search</groupId>
